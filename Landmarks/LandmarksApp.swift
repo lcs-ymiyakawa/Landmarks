@@ -11,8 +11,8 @@ import SwiftUI
 struct LandmarksApp: App {
     var body: some Scene {
         WindowGroup {
-            DetailView(item: rom)
             ListView()
+            GalleryView()
         }
     }
 }
